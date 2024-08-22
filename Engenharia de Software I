@@ -8,7 +8,7 @@ as software engineers, we are asked to make more complex decisions with higher-s
 Comentário: O texto diferencia programação de engenharia de software ao apontar que, enquanto a programação foca em tarefas técnicas específicas, a engenharia de software lida com aspectos mais amplos.
 Engenharia de software precisa considerar a gestão do tempo, a escalabilidade e a eficiência tanto do software quanto da organização. Além disso, envolve decisões complexas e de alto risco, frequentemente baseadas em estimativas imprecisas.
 
-
+### Requisitos
 ### ATIVIDADE 2
 
 "Within Google, we sometimes say, “Software engineering is programming integrated over time.” Programming is certainly a significant part of software engineering: after all, programming is how you generate new software in the first place.
