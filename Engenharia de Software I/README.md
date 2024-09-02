@@ -16,3 +16,12 @@ Comentário: O texto sugere que engenharia de software é essencialmente program
 
 ### ATIVIDADE 2 - Três exemplos de tradeoffs citando requisitos não funcionais
 
+Linux vs. Windows:
+Linux oferece mais controle e customização, ideal para servidores e desenvolvimento, mas pode ser menos amigável para usuários não técnicos. Windows é mais fácil de usar, mas pode ter limitações em termos de controle e custo de licenças.
+
+Java vs. Python:
+Java é robusto e performático, ótimo para aplicações de larga escala, mas tem uma curva de aprendizado maior. Python é mais fácil e rápido de desenvolver, ideal para prototipagem, mas pode ter limitações de desempenho.
+
+SQL vs. NoSQL:
+Bancos SQL (como MySQL) garantem consistência e transações, ideais para aplicações críticas, mas podem ser menos flexíveis com grandes volumes de dados não estruturados. NoSQL (como MongoDB) oferece escalabilidade e flexibilidade, mas pode comprometer a consistência de dados em certas situações.
+
