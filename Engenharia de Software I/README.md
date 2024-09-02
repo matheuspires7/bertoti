@@ -30,3 +30,6 @@ MySQL garante consistência e transações, ideal para aplicações críticas, m
 A Netflix faz vários trade-offs para manter seu serviço funcionando bem. Para evitar buffering, ela reduz a qualidade do vídeo se a internet estiver lenta. Ela prioriza estar sempre online, mesmo que alguns dados demorem para atualizar. A Netflix usa dados dos usuários para melhorar as recomendações, mas isso pode afetar a privacidade. Além disso, para suportar muitos usuários, investe muito em servidores na nuvem, o que aumenta os custos.
 
 ![netflix_aqr](https://github.com/user-attachments/assets/1612ef4f-a679-4784-bc58-c83d657d0a02)
+
+### ATIVIDADE 4 - Classes UML
+
