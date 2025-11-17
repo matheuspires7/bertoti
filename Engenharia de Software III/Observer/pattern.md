@@ -16,10 +16,11 @@ Aqui está o diagrama UML representando o **Observer Pattern**:
 ```mermaid
 classDiagram
     Subject "1" --> "0..*" Observer : notifies
-    Observer <|-- ConcreteObserver : implements
-    Subject <|-- ConcreteSubject : implements
+    Observer <|.. ConcreteObserver : implements
+    Subject <|.. ConcreteSubject : implements
 
     class Subject {
+        <<interface>>
         - observers: List<Observer>
         + addObserver(o: Observer)
         + removeObserver(o: Observer)
