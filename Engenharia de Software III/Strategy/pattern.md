@@ -19,9 +19,9 @@ Aqui está o diagrama UML que ilustra o padrão Strategy:
 
 ```mermaid
 classDiagram
-    Context "1" --> "1" Strategy : uses
-    Strategy <|-- ConcreteStrategyA : implements
-    Strategy <|-- ConcreteStrategyB : implements
+    Context "1" *--> "1" Strategy : uses
+    Strategy <|.. ConcreteStrategyA : implements
+    Strategy <|.. ConcreteStrategyB : implements
 
     class Context {
         - strategy: Strategy
