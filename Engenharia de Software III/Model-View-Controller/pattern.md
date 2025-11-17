@@ -9,37 +9,7 @@ O **padrão Model-View-Controller (MVC)** é um padrão de arquitetura de softwa
 2. **View**: Responsável pela interface do usuário. A View exibe os dados do Model e oferece ao usuário meios de interação. Ela escuta eventos gerados pelo Controller e atualiza a interface de acordo com a lógica de negócios.
 
 3. **Controller**: Intermediário entre o Model e a View. O Controller recebe as entradas do usuário através da View, processa a lógica de negócios (com o auxílio do Model) e atualiza a View.
-
-### Diagrama UML (MVC Pattern)
-
-Aqui está o diagrama UML representando o **Model-View-Controller (MVC)**:
-
-```mermaid
-classDiagram
-    Model "1" --> "0..*" Controller : updates
-    View "1" --> "0..*" Controller : notifies
-    Controller "1" --> "1" Model : updates
-    Controller "1" --> "1" View : updates
-
-    class Model {
-        + data: String
-        + getData(): String
-        + setData(data: String): void
-    }
-
-    class View {
-        + displayData(data: String): void
-        + setController(controller: Controller): void
-    }
-
-    class Controller {
-        + model: Model
-        + view: View
-        + updateView(): void
-        + setData(data: String): void
-    }
-```
-
+   
 ### Exemplo de Código em Java (MVC)
 
 Abaixo está um exemplo de código implementando o padrão **MVC** em **Java**:
